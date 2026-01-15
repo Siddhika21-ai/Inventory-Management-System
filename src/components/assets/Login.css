@@ -1,0 +1,110 @@
+.form {
+    width: 420px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    text-align: center;
+    padding: 30px 40px;
+    /* border-radius: 10px; */
+}
+
+.form form > h1 {
+    padding: 0px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form form > p {
+    padding: 0px 0 50px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 15px;
+    padding: 20px 30px 20px 30px;
+}
+
+.form .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: -15px 0 15px;
+}
+
+.remember label input {
+    margin-right: 4px;
+}
+
+.remember a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    font-style: italic;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.form button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.form button {
+    text-decoration: none;
+    color: white;
+}
+
+.form .btn {
+    color: white;
+}
+
+.form .nav {
+    font-size: 13px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.nav p .nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: black
+}
+
+.nav p .nav-link:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.checkbox-round {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: orange;
+    border: 1px solid orange;
+}
